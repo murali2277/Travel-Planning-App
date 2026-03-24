@@ -35,7 +35,7 @@ class TravelApp:
     def __init__(self):
         self.all_users = {}
         self.current_user = None
-        self.destinations = {"Paris", "Tokyo", "New York", "Bali", "Dubai", "Barcelona"}
+        self.destinations = {"India","Paris", "Tokyo", "New York", "Dubai"}
 
     def register_user(self):
         print("\nRegister")
